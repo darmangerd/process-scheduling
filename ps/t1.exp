@@ -1,0 +1,16 @@
+name t1
+comment experiment 1
+run interactive algorithm FCFS key "FCFS interactive"
+run cpu_intensive algorithm FCFS key cpu_intensive"
+run mixed_load algorithm FCFS key "FCFS mixed_load"
+
+run interactive algorithm RR 1.0 key "RR 1.0 interactive"
+run cpu_intensive algorithm RR 1.0 key "RR 1.0 cpu_intensive"
+run mixed_load algorithm RR 1.0 key "RR 1.0 mixed_load"
+
+run cpu_intensive algorithm SJF key "SJF cpu_intensive"
+run interactive algorithm SJF key "SJF interactive"
+
+run interactive algorithm SJFP 0.5 key "SJFP 0.5 interactive"
+run cpu_intensive algorithm SJFP 0.5 key "SJFP 0.5 cpu_intensive"
+run mixed_load algorithm SJFP 0.5 key "SJFP 0.5 mixed_load"
