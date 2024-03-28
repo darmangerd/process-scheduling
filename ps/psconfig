@@ -6,3 +6,9 @@ quiet
 portable true
 run myrun
 exp myexp
+
+run interactive
+run cpu_intensive
+run mixed_load
+
+exp t1

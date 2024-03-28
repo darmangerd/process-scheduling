@@ -1,4 +1,4 @@
-name cpu_intensive
+name mixed_load
 comment mixed load in which neither IO nor CPU bursts predominate
 algorithm SJF
 seed 5000
