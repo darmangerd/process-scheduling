@@ -12,3 +12,9 @@ run cpu_intensive
 run mixed_load
 
 exp t1
+
+run cpu_intensive_mixed_load
+run interactive_cpu_intensive
+run mixed_load_interactive
+
+exp t2
