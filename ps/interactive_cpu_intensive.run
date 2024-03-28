@@ -1,0 +1,19 @@
+name interactive_cpu_intensive
+comment use a series of short CPU-bursts followed by a varying waiting time and long CPU bursts followed by short IO bursts in parallel
+algorithm SJF
+seed 5000
+numprocs 5
+firstarrival 0.0
+interarrival constant 0.0
+duration constant 5.0
+cpuburst constant 0.5
+ioburst uniform 1.0 5.0
+basepriority 1.0
+
+numprocs 5
+firstarrival 0.0
+interarrival constant 0.0
+duration constant 40.0
+cpuburst constant 10.0
+ioburst exponential 1.5
+basepriority 1.0
