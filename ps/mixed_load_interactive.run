@@ -1,4 +1,4 @@
-name cpu_intensive_interactive
+name mixed_load_interactive
 comment mixed load in which neither IO nor CPU bursts predominate and use a series of short CPU-bursts followed by a varying waiting time in parallel
 algorithm SJF
 seed 5000
