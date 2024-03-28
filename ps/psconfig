@@ -18,3 +18,5 @@ run interactive_cpu_intensive
 run mixed_load_interactive
 
 exp t2
+
+exp t3
