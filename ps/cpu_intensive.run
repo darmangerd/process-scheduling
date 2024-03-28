@@ -1,0 +1,11 @@
+name cpu_intensive
+comment long CPU bursts followed by short IO bursts
+algorithm SJF
+seed 5000
+numprocs 5
+firstarrival 0.0
+interarrival constant 0.0
+duration constant 40.0
+cpuburst constant 10.0
+ioburst exponential 1.5
+basepriority 1.0

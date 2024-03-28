@@ -1,0 +1,11 @@
+name interactive
+comment use a series of short CPU-bursts followed by a varying waiting time 
+algorithm SJF
+seed 5000
+numprocs 5
+firstarrival 0.0
+interarrival constant 0.0
+duration constant 5.0
+cpuburst constant 0.5
+ioburst uniform 1.0 5.0
+basepriority 1.0

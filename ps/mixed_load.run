@@ -1,0 +1,11 @@
+name cpu_intensive
+comment mixed load in which neither IO nor CPU bursts predominate
+algorithm SJF
+seed 5000
+numprocs 5
+firstarrival 0.0
+interarrival constant 0.0
+duration constant 20.0
+cpuburst uniform 1.0 5.0
+ioburst uniform 1.0 5.0
+basepriority 1.0
