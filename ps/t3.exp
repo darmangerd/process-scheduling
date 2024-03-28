@@ -1,0 +1,21 @@
+name t3
+comment experiment t3
+run interactive algorithm RR 0.1 key "RR 0.1 interactive"
+run cpu_intensive algorithm RR 0.1 key "RR 0.1 cpu_intensive"
+run mixed_load algorithm RR 0.1 key "RR 0.1 mixed_load"
+
+run interactive algorithm RR 0.5 key "RR 0.5 interactive"
+run cpu_intensive algorithm RR 0.5 key "RR 0.5 cpu_intensive"
+run mixed_load algorithm RR 0.5 key "RR 0.5 mixed_load"
+
+run interactive algorithm RR 1.0 key "RR 1.0 interactive"
+run cpu_intensive algorithm RR 1.0 key "RR 1.0 cpu_intensive"
+run mixed_load algorithm RR 1.0 key "RR 1.0 mixed_load"
+
+run interactive algorithm RR 5.0 key "RR 5.0 interactive"
+run cpu_intensive algorithm RR 5.0 key "RR 5.0 cpu_intensive"
+run mixed_load algorithm RR 5.0 key "RR 5.0 mixed_load"
+
+run interactive algorithm RR 10.0 key "RR 10.0 interactive"
+run cpu_intensive algorithm RR 10.0 key "RR 10.0 cpu_intensive"
+run mixed_load algorithm RR 10.0 key "RR 10.0 mixed_load"
