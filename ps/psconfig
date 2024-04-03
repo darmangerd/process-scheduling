@@ -20,3 +20,9 @@ run mixed_load_interactive
 exp t2
 
 exp t3
+
+run hp_cpu_intensive
+run hp_interactive
+run hp_mixed_load
+
+exp t4

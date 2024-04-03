@@ -1,0 +1,11 @@
+name hp_interactive
+comment high performance interactive
+algorithm SJF
+seed 5000
+numprocs 500
+firstarrival 0.0
+interarrival uniform 4.0 12.5
+duration constant 5.0
+cpuburst constant 0.5
+ioburst uniform 1.0 5.0
+basepriority 1.0
