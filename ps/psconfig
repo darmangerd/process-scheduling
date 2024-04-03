@@ -21,6 +21,8 @@ exp t2
 
 exp t3
 
+exp t3_cst
+
 run hp_cpu_intensive
 run hp_interactive
 run hp_mixed_load

@@ -1,0 +1,21 @@
+name t3_cst
+comment experiment t3_cst
+run interactive algorithm RR 0.1 key "RR 0.1 interactive" cstin 0.1 cstout 0.1
+run cpu_intensive algorithm RR 0.1 key "RR 0.1 cpu_intensive" cstin 0.1 cstout 0.1
+run mixed_load algorithm RR 0.1 key "RR 0.1 mixed_load" cstin 0.1 cstout 0.1
+
+run interactive algorithm RR 0.5 key "RR 0.5 interactive" cstin 0.1 cstout 0.1
+run cpu_intensive algorithm RR 0.5 key "RR 0.5 cpu_intensive" cstin 0.1 cstout 0.1
+run mixed_load algorithm RR 0.5 key "RR 0.5 mixed_load" cstin 0.1 cstout 0.1
+
+run interactive algorithm RR 1.0 key "RR 1.0 interactive" cstin 0.1 cstout 0.1
+run cpu_intensive algorithm RR 1.0 key "RR 1.0 cpu_intensive" cstin 0.1 cstout 0.1
+run mixed_load algorithm RR 1.0 key "RR 1.0 mixed_load" cstin 0.1 cstout 0.1
+
+run interactive algorithm RR 5.0 key "RR 5.0 interactive" cstin 0.1 cstout 0.1
+run cpu_intensive algorithm RR 5.0 key "RR 5.0 cpu_intensive" cstin 0.1 cstout 0.1
+run mixed_load algorithm RR 5.0 key "RR 5.0 mixed_load" cstin 0.1 cstout 0.1
+
+run interactive algorithm RR 10.0 key "RR 10.0 interactive" cstin 0.1 cstout 0.1
+run cpu_intensive algorithm RR 10.0 key "RR 10.0 cpu_intensive" cstin 0.1 cstout 0.1
+run mixed_load algorithm RR 10.0 key "RR 10.0 mixed_load" cstin 0.1 cstout 0.1
